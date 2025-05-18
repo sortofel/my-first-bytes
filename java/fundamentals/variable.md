@@ -7,7 +7,7 @@
 - [기본형 데이터 타입](#기본형primitive-type-데이터-타입)
 - [인코딩과 디코딩](#인코딩encoding과-디코딩decoding)
 - [오버플로우와 언더플로우](#오버플로우overflow와-언더플로우underflow)
-- [데이터 타입 캐스팅](#데이터-타입-캐스팅type-casting)
+- [형변환](#형변환type-casting)
 - [예제](#예제)
 - [정리](#정리)
  
@@ -143,7 +143,7 @@ anotherNumber--;  // 언더플로우 발생
 System.out.println(anotherNumber);  // 127 (최대값으로 돌아감)
 ```
 
-## 데이터 타입 캐스팅(Type Casting)
+## 형변환 (Type Casting)
 
 - 하나의 데이터 타입을 다른 데이터 타입으로 변환하는 과정   
   (타입) 피연산자;
