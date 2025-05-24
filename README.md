@@ -3,7 +3,8 @@ my-first-bytes/
 ├── README.md
 ├── Java/   
 │   ├── fundamentals/   
-│   │   ├── variable.md   
+│   │   ├── variable.md
+│   │   ├── operator.md   
 │   │   └── ...   
 ├── general-theory/   
 │   ├── OOP.md  
