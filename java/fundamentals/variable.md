@@ -12,7 +12,7 @@
 - [정리](#정리)
  
 &nbsp;
-## 변수의 정의
+## 1. 변수의 정의
 - 단 하나의 값만을 저장할 수 있는 메모리 공간
 - 프로그램이 실행되는 동안 값이 변경될 수 있음 = 데이터를 저장하고 참조하기 위한 이름이 붙은 메모리 공간
 
@@ -21,7 +21,7 @@ int age = 25;  // 'age'라는 이름의 변수에 25라는 값을 저장
 age = 26;      // 변수의 값은 변경 가능
 ```
 
-## 데이터의 종류
+## 2. 데이터의 종류
 1. **기본형(Primitive Type)**: 실제 값을 저장
 2. **참조형(Reference Type)**: 객체의 주소를 저장
 
@@ -41,7 +41,7 @@ String name = "Albarn" + 7; //7-> "7" 자동 변환
 name = Albarn7;
 ```
 
-## 변수, 상수, 리터럴의 차이
+## 3. 변수, 상수, 리터럴의 차이
 
 ### 변수(Variable)
 - 하나의 값을 저장하기 위한 메모리 공간
@@ -73,7 +73,7 @@ char c = 'A';     // 'A'는 문자 리터럴
 String d = "Hello";  // "Hello"는 문자열 리터럴
 ```
 
-## 기본형(Primitive Type) 데이터 타입
+## 4. 기본형(Primitive Type) 데이터 타입
 
 ### 기본형 타입별 저장 범위 및 크기
 
@@ -91,7 +91,7 @@ String d = "Hello";  // "Hello"는 문자열 리터럴
 - float과 double은 정밀도의 차이   
   float - 7자리, double - 15자리
 
-## 인코딩(Encoding)과 디코딩(Decoding)
+## 5. 인코딩(Encoding)과 디코딩(Decoding)
 
 ### 인코딩(Encoding)
 - 문자나 기호를 컴퓨터가 이해할 수 있는 다른 형태(주로 이진수)로 변환하는 과정
@@ -121,7 +121,7 @@ System.out.println(ch + 1);  // 66 (A의 코드값 65 + 1)
 System.out.println((char)(ch + 1));  // B (65+1=66을 문자로 변환)
 ```
 
-## 오버플로우(Overflow)와 언더플로우(Underflow)
+## 6. 오버플로우(Overflow)와 언더플로우(Underflow)
 
 ### 오버플로우(Overflow)
 - 특정 데이터 타입이 표현할 수 있는 최대값보다 큰 값을 저장하려고 할 때 발생
@@ -143,12 +143,12 @@ anotherNumber--;  // 언더플로우 발생
 System.out.println(anotherNumber);  // 127 (최대값으로 돌아감)
 ```
 
-## 형변환 (Type Casting)
+## 7. 형변환 (Type Casting)
 
 - 하나의 데이터 타입을 다른 데이터 타입으로 변환하는 과정   
   (타입) 피연산자;
 
-### 1. 자동 형변환(Promotion, 묵시적 형변환)
+### 자동 형변환(Promotion, 묵시적 형변환)
 - 작은 데이터 타입에서 큰 데이터 타입으로 변환하는 경우
 - 자동으로 형변환이 이루어짐
 - 데이터 손실의 위험이 없어 명시적 캐스팅 선언 불필요
@@ -169,7 +169,7 @@ System.out.println("floatValue: " + floatValue);  // 10.0
 System.out.println("doubleValue: " + doubleValue); // 10.0
 ```
 
-### 2. 강제 형변환(Casting, 명시적 형변환)
+### 강제 형변환(Casting, 명시적 형변환)
 - 큰 데이터 타입에서 작은 데이터 타입으로 변환하는 경우
 - 명시적으로 캐스팅을 선언해야 함
 - 데이터 손실의 위험이 있음
@@ -206,7 +206,7 @@ String str = String.valueOf(number);  // int → String
 int num = Integer.parseInt("20");     // String → int
 ```
 
-## 예제
+## 8. 예제
 
 ```java
 public class TypeCastingExample {
@@ -271,7 +271,7 @@ public class TypeCastingExample {
 }
 ```
 
-## 정리
+## 9. 정리
 
 1. **변수**: 단 하나의 값을 저장하는 메모리 공간
 2. **데이터 타입**: 기본형과 참조형으로 나뉨
