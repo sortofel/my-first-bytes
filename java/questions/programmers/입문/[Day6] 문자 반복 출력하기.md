@@ -41,9 +41,7 @@ class Solution {
 
 #### 입출력 예
 
-|num_list|result|
-|--|--|
-|my_strin|n|result|
+|my_string|n|result|
 |:--|:--|:--|
 |"hello"|3|"hhheeellllllooo"|
 
